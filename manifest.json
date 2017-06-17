@@ -1,46 +1,4 @@
 {
   "machines": {
-    "deadline": {
-      "route": "/machines/deadline",
-      "versions": {
-        "version1": {
-          "route": "/machines/deadline/version1",
-          "instances": {
-            "instance1": {
-              "route": "/machines/deadline/version1/instances/instance1"
-            },
-            "instance2": {
-              "route": "/machines/deadline/version1/instances/instance2"
-            }
-          }
-        },
-        "version2": {
-          "route": "/machines/deadline/version2",
-          "instances": {}
-        }
-      }
-    },
-    "keynote": {
-      "route": "/machines/deadline",
-      "versions": {}
-    },
-    "foo12": {
-      "route": "machines/foo12",
-      "versions": {
-        "version1": {
-          "route": "machines/foo12/versions/version1",
-          "instances": {}
-        }
-      }
-    },
-    "foo13": {
-      "route": "machines/foo13",
-      "versions": {
-        "version1": {
-          "route": "machines/foo13/versions/version1",
-          "instances": {}
-        }
-      }
-    }
   }
 }
