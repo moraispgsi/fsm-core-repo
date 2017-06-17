@@ -32,6 +32,15 @@
           "instances": {}
         }
       }
+    },
+    "foo13": {
+      "route": "machines/foo13",
+      "versions": {
+        "version1": {
+          "route": "machines/foo13/versions/version1",
+          "instances": {}
+        }
+      }
     }
   }
 }
